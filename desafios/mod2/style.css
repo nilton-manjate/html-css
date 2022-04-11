@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+h1,h2 {
+    font-family: idroid;
+    font-size: 2em;
+    color: rgb(16, 82, 58);
+}
+.subtitulo {
+    background-image: linear-gradient(to right, rgba(37, 227, 157, 0.197), white);
+    font-size: 1.5em;
+}
+#principal {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    padding-top: 20px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header {
+    text-align: center;
+    font-size: small;
+
+    background-image: linear-gradient(0deg, rgb(16, 82, 58), rgb(37, 227, 157));
+    color: rgba(255, 255, 255, 0.66);
+    margin: 0px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.593);
+
+    min-height: 150px;
+}
+
+header > p {
+    text-align: center;
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    
+    background-color: rgba(127, 255, 212, 0.304);
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+
+nav {
+    font-size: small;
+    text-align: left;
+    padding: 10px;
+    margin: 5px;
+}
+
+body {
+    background-color: rgb(86, 225, 174);
+    margin: 0px, auto;
+}
+main {
+    background-color: white;
+    min-width: 320px;
+    max-width: 820px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 0px 0px 5px 5px;
+    margin-top: -5px;
+
+}
+.extra {
+    background-color: rgb(37, 227, 157);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px 8px 0px 0px;
+    padding: 5px;
+    font-size: 1.5em;
+    min-width: 320px;
+    max-width: 800px;
+    
+}
+
+.caixa {
+    background-color: rgba(127, 255, 212, 0.304);
+    padding: 5px;
+    min-width: 320px;
+    max-width: 800px;
+    margin-top: -20px;
+}
+
+.caixa ul{
+    columns: 2;
+    list-style-position: inside;
+}
+
+
+main > section > article > img {
+    display: block;
+    margin: auto;
+    max-width: 350px;
+}
+
+main > section > article > picture > img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(16, 82, 58);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: small;
+}
+p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+main strong {
+    color:rgb(16, 82, 58);
+    background-color: rgb(144, 223, 194);
+    border-radius: 5px;
+}
+
+div.video {
+    background-color: rgb(16, 82, 58);
+    padding: 10px;
+    margin: 0px -10px;
+    padding-bottom: 59%;
+    position: relative;
+
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}

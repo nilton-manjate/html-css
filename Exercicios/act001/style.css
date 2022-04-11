@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    background-image: -moz-linear-gradient(0deg,#8AA6A3,#BFBFBF,#4C5958);
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: #10403B;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

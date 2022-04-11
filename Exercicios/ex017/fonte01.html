@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        body{
+            font-family: cursive;
+            /*
+            Medidas absolutas
+            cm, mm, in (polegada), px (pixel), pt (ponto), pc (paica)
+
+            Medidas relativas
+            em(relativa ao tamanho actual da fonte) M
+            ex(relativa a altura x de uma fonte) x
+            ren (relativa a fonte configurada no body)
+            vw (view port, relativa ao tamanho da tela)
+            vh (altura da view port)
+            % (percentagem)
+
+            USAR SEMPRE PX OU EM
+            */
+            font-size: 1.5em; /*16px eh o padrao       16px = 1em*/
+
+            /*font-weight: ligther, normal, bold, bolder
+            font-weight: 100 - 900         400 = normal
+            font-style: normal, italic
+            text-decoration: underline
+
+            SHORTHAND FONT
+
+            - font-style -> font-weight -> font-size -> font-family
+            */
+        }
+        h1, h2{
+            font: italic bolder 2em 'work Sans'
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum consequatur esse non perspiciatis provident? Voluptatem blanditiis porro fugiat, facere qui suscipit quas pariatur dolores numquam, quia cumque aliquid fugit commodi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis accusamus aspernatur molestias ea rem quisquam qui voluptates est dolore commodi in et rerum praesentium, dignissimos voluptatum tempore incidunt corporis aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut nobis culpa consequuntur perferendis architecto dolorum, veritatis autem molestias repellat? Obcaecati ducimus unde sapiente! Assumenda inventore facilis pariatur neque sequi tempora!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aut minus numquam optio est! Est delectus ab eligendi quia tenetur ratione distinctio sapiente at veritatis eveniet. Laborum at quia doloremque!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque possimus molestiae explicabo temporibus qui voluptatum, iure, aut ipsa, fugiat quas a nobis eos odio. Dolorem, corporis recusandae! Tenetur, recusandae cumque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odit harum eius magnam quis nemo velit dolorum quasi ducimus, natus at temporibus, quae iure tenetur facilis cumque quam, dolorem modi.</p>
+</body>
+</html>
