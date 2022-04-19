@@ -22,54 +22,88 @@
             color: white;
 
         }
+        td.num {
+            text-align: right;
+        }
+        caption{
+            padding: 10px;
+            background-color: blanchedalmond;
+            font-weight: bold;
+        }
+
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>População de alguns estados e províncias</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
 
         </thead>
         <tbody>
             <tr>
                 <td>São Paulo</td>
-                <td>45 919 049</td>
+                <td class="num">45 919 049</td>
             </tr>
             <tr>
                 <td>Minas Gerais</td>
-                <td>21 546 486</td>
+                <td class="num">21 546 486</td>
             </tr>
-            <td>Rio de Janeiro</td>
-            <td> 42 586 952</td>
-            <td>Maputo</td>
-            <td> 42 586 952</td>
-            <td>Gaza</td>
-            <td> 42 586 952</td>
-            <td>Inhambane</td>
-            <td> 42 586 952</td>
-            <td>Sofala</td>
-            <td>Manica</td>
-            <td>Zambezia</td>
-            <td> 42 586 952</td>
-            <td>Nampula</td>
-            <td> 42 586 952</td>
-            <td>Tete</td>
-            <td> 42 586 952</td>
-            <td>Niassa</td>
-            <td> 42 586 952</td>
-            <td>Cabo Delgado</td>
-            <td> 42 586 952</td>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num"> 42 586 952</td>
+            </tr>
+            <tr>
+                <td>Maputo</td>
+                <td class="num"> 42 586 952</td>
+            </tr>
+            <tr>
+                <td>Gaza</td>
+                <td class="num"> 42 586 952</td>
+            </tr>
+            <tr>
+                <td>Inhambane</td>
+                <td class="num"> 42 586 952</td>
+            </tr>
+            <tr>
+                <td>Sofala</td>
+                <td class="num">45 921 432</td>
+            </tr>
+            <tr> 
+                <td>Manica</td>
+                <td class="num">12 546 846</td>
+            </tr>
+            <tr>
+                <td>Zambezia</td>
+                <td class="num"> 42 586 952</td>
+            </tr>
+            <tr>
+                <td>Nampula</td>
+                <td class="num"> 42 586 952</td>
+            </tr>
+            <tr>
+                <td>Tete</td>
+                <td class="num"> 42 586 952</td>
+            </tr>
+            <tr>
+                <td>Niassa</td>
+                <td class="num"> 42 586 952</td>
+            </tr>
+            <tr>
+                <td>Cabo Delgado</td>
+                <td class="num"> 42 586 952</td>
+            </tr>
             
 
 
         </tbody>
         <tfoot>
             <tr>
-                <th>Total</td>
+                <th scope="row">Total</td>
                 <td>0000</td>
             </tr>
 
