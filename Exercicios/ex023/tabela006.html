@@ -11,12 +11,17 @@
         }
         table {
             border-collapse: collapse;
+            position: relative;
         }
         caption {
             font-size: 1.2em;
             font-weight: bolder;
             padding: 20px;
 
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
         }
         th, td {
             border: 1px solid black;
